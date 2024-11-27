@@ -43,6 +43,8 @@ Yarn
 Expo CLI
 json-server
 🛠️ Como Rodar o Projeto
+git clone https://github.com/BeMobile/desafio-mobile
+
 1. Rodar o Servidor da API (desafio-mobile)
 Navegue até a pasta desafio-mobile:
 
@@ -55,6 +57,7 @@ Inicie o servidor:
 json-server --watch db.json
 O servidor estará disponível em http://localhost:3000.
 
+git clone https://github.com/karolyne04/desafio-mobile
 2. Rodar o Front-End (be-talent)
 Abra um novo terminal e navegue até a pasta be-talent:
 
