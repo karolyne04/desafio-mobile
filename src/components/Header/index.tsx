@@ -1,4 +1,4 @@
-import { Text, View } from "react-native";
+import { Text, TouchableOpacity, View } from "react-native";
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { styles } from "./styles";
 
@@ -11,12 +11,12 @@ export default function Header() {
                     <Text style={styles.title}>CG</Text>
                 </View>
 
-                <View style={styles.notifications}>
+                <TouchableOpacity style={styles.notifications}>
                     <Ionicons style={styles.icon} name="notifications-outline" size={26} color="black" />
                     <View style={styles.notification}>
                         <Text style={styles.text}>02</Text>
                     </View>
-                </View>
+                </TouchableOpacity>
 
             </View>
 
