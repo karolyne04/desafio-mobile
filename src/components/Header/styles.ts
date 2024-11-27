@@ -51,7 +51,7 @@ export const styles = StyleSheet.create({
         backgroundColor: colors.blue.primary,
     },
     icon: {
-        marginLeft: 5, // Mantém o ícone alinhado dentro do container
+        marginLeft: 5, 
     },
     text: {
         color: colors.white.neutral,

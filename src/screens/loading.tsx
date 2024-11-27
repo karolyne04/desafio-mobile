@@ -7,7 +7,7 @@ export default function Loading() {
     const navigation = useNavigation();
 
     useEffect(() => {
-        // Simula o carregamento antes de navegar para a próxima tela
+        
         const timeout = setTimeout(() => {
             navigation.navigate("Main");
         }, 3000); // 3 segundos

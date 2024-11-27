@@ -5,11 +5,6 @@ export const styles = StyleSheet.create({
   container: {
     borderRadius: 8,
     flex:1,
-    // shadowColor: "#000",
-    // shadowOpacity: 0.1,
-    // // shadowOffset: { width: 0, height: 2 },
-    // shadowRadius: 4,
-    // elevation: 2,
     backgroundColor: colors.white.neutral,
     width: 335,
     borderColor: colors.gray[10],
@@ -32,7 +27,6 @@ export const styles = StyleSheet.create({
   },
   col: {
     flexDirection: "row",
-    // backgroundColor: colors.gray[10],
     width: "40%",
   },
   headerText: {
@@ -75,7 +69,6 @@ export const styles = StyleSheet.create({
   },
   details: {
     padding: 10,
-    // backgroundColor: colors.gray[20],
     borderRadius: 5,
     marginTop: 5,
     shadowColor: "#000",
@@ -89,7 +82,6 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     color: colors.black.neutral,
     marginBottom: 5,
-    
     gap: 15,
   },
   label: {
@@ -100,26 +92,25 @@ export const styles = StyleSheet.create({
     fontFamily: "Helvetica-Regular",
   },
  cargoText:{
-      fontFamily: "Helvetica-Regular",
-      fontWeight: 400,
+    fontFamily: "Helvetica-Regular",
+    fontWeight: 400,
  },
   dottedLine: {
-    flexDirection: "row", // Organiza os pontinhos em linha
-    justifyContent: "space-between", // Espaçamento uniforme entre os pontinhos
+    flexDirection: "row", 
+    justifyContent: "space-between", 
     alignItems: "center",
-    marginVertical: 4, // Espaço ao redor da linha
+    marginVertical: 4, 
   },
   dot: {
-    width: 3, // Largura do ponto
-    height: 2, // Altura do ponto
-     // Torna os pontos redondos
-    backgroundColor: colors.gray[10], // Cor do ponto
+    width: 3, 
+    height: 2,
+    backgroundColor: colors.gray[10], 
   },
   rowBetween: {
     flexDirection: "row",
-    justifyContent: "space-between", // Coloca os textos nos extremos
-    alignItems: "center", // Centraliza verticalmente
-    marginBottom: 8, // Espaço entre esta linha e o próximo elemento
+    justifyContent: "space-between", 
+    alignItems: "center", 
+    marginBottom: 8,
   },
   noData:{
     color: colors.black.neutral,

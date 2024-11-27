@@ -97,7 +97,7 @@ export default function Tabela({ data }: UserTableProps) {
 
 	return (
 		<View style={styles.container}>
-			{/* Cabeçalho da tabela */}
+			
 			<View style={styles.header}>
 				<View style={styles.col}>
 					<Text style={styles.headerText}>Foto</Text>
@@ -106,7 +106,7 @@ export default function Tabela({ data }: UserTableProps) {
 				<Ionicons name="ellipse" size={12} color={colors.black.neutral} />
 			</View>
 
-			{/* Lista de usuários */}
+			
 			<FlatList
 				data={data}
 				keyExtractor={(item) => item.id.toString()}
