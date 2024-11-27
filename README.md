@@ -62,6 +62,7 @@ git clone https://github.com/karolyne04/desafio-mobile
 Abra um novo terminal e navegue até a pasta be-talent:
 
 cd caminho/para/be-talent
+se não tiver a pasta be-talent roda na raiz mesmo cd desafio-mobile e roda 
 Instale as dependências:
 
 yarn install
